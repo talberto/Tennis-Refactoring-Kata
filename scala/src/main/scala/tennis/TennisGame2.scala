@@ -1,7 +1,5 @@
 package tennis
 
-
-
 class TennisGame2 (val player1Name : String, val player2Name : String) extends TennisGame {
 
     var P1point = 0
@@ -129,3 +127,5 @@ class TennisGame2 (val player1Name : String, val player2Name : String) extends T
             P2Score()
     }
 }
+
+case class Player(name: String, score: Int)
